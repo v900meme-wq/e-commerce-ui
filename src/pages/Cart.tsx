@@ -132,7 +132,7 @@ export default function Cart() {
                                             <div className="w-24 h-24 rounded-lg overflow-hidden bg-stone-100">
                                                 {thumbnail ? (
                                                     <img
-                                                        src={`http://localhost:3000${thumbnail.imageUrl}`}
+                                                        src={`http://localhost:3004${thumbnail.imageUrl}`}
                                                         alt={item.product.productName}
                                                         className="w-full h-full object-cover"
                                                     />

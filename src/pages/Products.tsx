@@ -136,7 +136,7 @@ export default function Products() {
                                         <div className="aspect-square overflow-hidden bg-stone-100">
                                             {thumbnail ? (
                                                 <img
-                                                    src={`http://localhost:3000${thumbnail.imageUrl}`}
+                                                    src={`http://localhost:3004${thumbnail.imageUrl}`}
                                                     alt={product.productName}
                                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                                                 />

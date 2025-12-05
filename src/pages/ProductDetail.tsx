@@ -110,7 +110,7 @@ export default function ProductDetail() {
                         <div className="aspect-square rounded-xl overflow-hidden bg-white shadow-lg">
                             {sortedImages.length > 0 ? (
                                 <img
-                                    src={`http://localhost:3000${sortedImages[selectedImage]?.imageUrl}`}
+                                    src={`http://localhost:3004${sortedImages[selectedImage]?.imageUrl}`}
                                     alt={product.productName}
                                     className="w-full h-full object-cover"
                                 />
@@ -133,7 +133,7 @@ export default function ProductDetail() {
                                             }`}
                                     >
                                         <img
-                                            src={`http://localhost:3000${img.imageUrl}`}
+                                            src={`http://localhost:3004${img.imageUrl}`}
                                             alt={`${product.productName} ${index + 1}`}
                                             className="w-full h-full object-cover"
                                         />

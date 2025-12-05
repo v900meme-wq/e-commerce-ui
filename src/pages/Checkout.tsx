@@ -180,7 +180,7 @@ export default function Checkout() {
                                             <div className="w-16 h-16 rounded-lg overflow-hidden bg-stone-100 flex-shrink-0">
                                                 {thumbnail && (
                                                     <img
-                                                        src={`http://localhost:3000${thumbnail.imageUrl}`}
+                                                        src={`http://localhost:3004${thumbnail.imageUrl}`}
                                                         alt={item.product.productName}
                                                         className="w-full h-full object-cover"
                                                     />
